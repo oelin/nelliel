@@ -1,0 +1,26 @@
+{
+	"name": "nelliel",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "Scrape all of YouTube.",
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"dependencies": {
+		"apify": "^3.0.0",
+		"cheerio": "^1.0.0-rc.12",
+		"chiaki": "^2.0.0"
+	},
+	"devDependencies": {
+		"@apify/eslint-config": "^0.3.1",
+		"eslint": "^8.36.0"
+	},
+	"scripts": {
+		"start": "node src/main.js",
+		"lint": "eslint ./src --ext .js,.jsx",
+		"lint:fix": "eslint ./src --ext .js,.jsx --fix",
+		"test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
+	},
+	"author": "It's not you it's me",
+	"license": "ISC"
+}
