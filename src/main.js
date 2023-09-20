@@ -1,6 +1,3 @@
-
-// Apify SDK - toolkit for building Apify Actors (Read more at https://docs.apify.com/sdk/js/)
-
 import { Actor } from 'apify';
 import * as cheerio from 'cheerio';
 import fetch from 'chiaki';
